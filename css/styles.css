@@ -3,6 +3,7 @@ h1 {
   font-family: arial;
   text-align: center;
   margin-left: 550px;
+  
 
 }
 
@@ -12,7 +13,7 @@ h1 {
     width: 500px;
     height: 500px;
   }
-
+body {background-color: coral;}
 
 td, th {
     border: 3px solid #dddddd;

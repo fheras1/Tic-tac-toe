@@ -9,11 +9,13 @@ h1 {
 .table {
     margin: auto;
     border-collapse: collapse;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
   }
-body {background-color: coral;}
-
+/*body {background-color: coral;}*/
+body {
+  background-image: url('/Users/felixheras/ironhack/tic-tac-toe/Tic-tac-toe/img/images.jpg');
+}
 td, th {
     border: 3px solid #dddddd;
     text-align: left;
@@ -21,8 +23,6 @@ td, th {
   }
 
 .tr {
-width: 50px;
-height: 50px;
 border: 1px solid black;
 text-align: center;
 }

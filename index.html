@@ -3,27 +3,34 @@
 <head>
   <title>Tic tac toe</title>
   <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
   <script type="text/javascript" src="./index.js"></script>
+  <script type="text/javascript" src="./canvas.js"></script>
 </head>
 <body>
   <h1>Tic tac toe</h1>
-  <div>
-  <table id="gamePanel">
+  <!-- <div id="background"> -->
+      <!-- <canvas id="canvas" width="1000" height="400"></canvas> -->
+    <!-- <div> -->
+    <button>
+      Start Game
+    </button>
+  <table id="gameBoard">
     <table class="table table-bordered">
       <tr>
-      <td id="box00"></td>
-        <td id="box01"></td>
-          <td id="box02"></td>
+      <td id="box00" class="box"></td>
+        <td id="box01" class="box"></td>
+          <td id="box02" class="box"></td>
         </tr>
         <tr>
-          <td id="box10"></td>
-          <td id="box11"></td>
-          <td id="box12"></td>
+          <td id="box10" class="box"></td>
+          <td id="box11" class="box"></td>
+          <td id="box12" class="box"></td>
         </tr>
         <tr>
-          <td id="box20"></td>
-          <td id="box21"></td>
-          <td id="box22"></td>
+          <td id="box20" class="box"></td>
+          <td id="box21" class="box"></td>
+          <td id="box22" class="box"></td>
   </table>
 </div>
 </body>

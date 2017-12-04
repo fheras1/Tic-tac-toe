@@ -1,14 +1,11 @@
 h1 {
-  display: inline-block;
+  position: relative;
   font-family: arial;
-  text-align: center;
-  margin-left: 550px;
-
+  margin right: 45px;
 }
 
 .table {
     margin: auto;
-    border-collapse: collapse;
     width: 400px;
     height: 400px;
   }

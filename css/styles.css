@@ -18,15 +18,16 @@ body {
   position: absolute;
   top: 30px;
   right: 70px;
-  width: 200px;
-  height: 50px;
+  width: 150px;
+  height: 40px;
   font-size: 16px;
+  font-weight: bold;
 }
 
 #table {
     margin: auto;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
   }
 
 
@@ -52,11 +53,9 @@ td, th {
 .cell{
 
   background-color: rgba(255,255,255,1);
-
   transition-property: background-color, border-radius, opacity;
   transition-duration: 1s, 1.3s, 0.6s;
   transition-delay: 0s, 0.2s, 0s;
-
   opacity: 0.8;
 
 }
